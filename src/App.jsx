@@ -11,7 +11,6 @@ export default function App() {
 
   const subjects = Object.keys(quizData);
 
-  // Shuffle cards whenever subject changes
   useEffect(() => {
     if (subject) {
       const shuffled = [...quizData[subject]].sort(() => Math.random() - 0.5);
@@ -23,54 +22,54 @@ export default function App() {
   }, [subject]);
 
   function handleAnswer(isCorrect) {
-    if (answered) return; // prevent double score
+    if (answered) return;
     setAnswered(true);
-    if (isCorrect) {
-      setScore(score + 1);
-    }
+    if (isCorrect) setScore(score + 1);
   }
 
   return (
-    <div style={{ padding: 20 }}>
-      <h1>Quiz App</h1>
+    <div className="app-container">
+      <div className="quiz-card">
 
-      {/* SCORE ON TOP */}
-      {subject && (
-        <h3>
-          Score: {score} / {cards.length}
-        </h3>
-      )}
+        <h1 className="title">📘 Quiz App</h1>
 
-      {/* SUBJECT SELECTOR */}
-      <select
-        value={subject}
-        onChange={(e) => setSubject(e.target.value)}
-      >
-        <option value="">Select Subject</option>
-        {subjects.map((s) => (
-          <option key={s} value={s}>{s}</option>
-        ))}
-      </select>
+        {subject && (
+          <div className="score">
+            Score: <strong>{score}</strong> / {cards.length}
+          </div>
+        )}
 
-      {/* FLASHCARD */}
-      {subject && cards.length > 0 && (
-        <>
-          <Flashcard
-            card={cards[index]}
-            onAnswer={handleAnswer}
-          />
+        <select
+          className="select"
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+        >
+          <option value="">Select Subject</option>
+          {subjects.map((s) => (
+            <option key={s} value={s}>{s}</option>
+          ))}
+        </select>
 
-          <button
-            onClick={() => {
-              setIndex((index + 1) % cards.length);
-              setAnswered(false);
-            }}
-            style={{ marginTop: 10 }}
-          >
-            Next Question
-          </button>
-        </>
-      )}
+        {subject && cards.length > 0 && (
+          <>
+            <Flashcard card={cards[index]} onAnswer={handleAnswer} />
+
+            <button
+              className="next-btn"
+              onClick={() => {
+                setIndex((index + 1) % cards.length);
+                setAnswered(false);
+              }}
+            >
+              Next Question →
+            </button>
+
+            <div className="progress">
+              Question {index + 1} of {cards.length}
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }

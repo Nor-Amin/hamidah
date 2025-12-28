@@ -1,15 +1,116 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
 }
 
-input {
-  display: block;
+/* App layout */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.quiz-card {
+  background: white;
   width: 100%;
-  margin-bottom: 5px;
-  padding: 6px;
+  max-width: 520px;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
-button {
-  padding: 6px 10px;
-  margin-top: 5px;
+/* Header */
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.score {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Select */
+.select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Flashcard */
+.flashcard {
+  margin-top: 10px;
+}
+
+.question {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* Options */
+.options {
+  display: grid;
+  gap: 10px;
+}
+
+.option-btn {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.option-btn:hover {
+  background: #eaeaea;
+}
+
+.option-btn.correct {
+  background: #c8f7c5;
+  border-color: #2ecc71;
+}
+
+.option-btn.wrong {
+  background: #f7c5c5;
+  border-color: #e74c3c;
+}
+
+.option-btn:disabled {
+  cursor: default;
+}
+
+/* Navigation */
+.next-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background: #1e3c72;
+}
+
+.progress {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
 }

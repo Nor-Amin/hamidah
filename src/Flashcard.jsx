@@ -16,29 +16,30 @@ export default function Flashcard({ card, onAnswer }) {
   }
 
   return (
-    <div>
-      <h3>{card.question}</h3>
+    <div className="flashcard">
+      <h3 className="question">{card.question}</h3>
 
-      {options.map((o, i) => (
-        <button
-          key={i}
-          onClick={() => handleSelect(o)}
-          disabled={selected !== null}
-          style={{
-            display: "block",
-            marginBottom: "8px",
-            background:
-              selected &&
-              (o === card.correct
-                ? "lightgreen"
-                : o === selected
-                ? "salmon"
-                : "")
-          }}
-        >
-          {o}
-        </button>
-      ))}
+      <div className="options">
+        {options.map((o, i) => {
+          let className = "option-btn";
+
+          if (selected) {
+            if (o === card.correct) className += " correct";
+            else if (o === selected) className += " wrong";
+          }
+
+          return (
+            <button
+              key={i}
+              className={className}
+              onClick={() => handleSelect(o)}
+              disabled={selected !== null}
+            >
+              {o}
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }
