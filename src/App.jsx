@@ -31,7 +31,7 @@ export default function App() {
     <div className="app-container">
       <div className="quiz-card">
 
-        <h1 className="title">📘 Quiz App</h1>
+        <h1 className="title"> Mechanical Review Web</h1>
 
         {subject && (
           <div className="score">
