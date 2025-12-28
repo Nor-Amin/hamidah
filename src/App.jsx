@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Flashcard from "./Flashcard";
 import { quizData } from "./quizData";
+import logo from "./assets/logo.png"; // import your logo
 
 export default function App() {
   const [subject, setSubject] = useState("");
@@ -31,7 +32,9 @@ export default function App() {
     <div className="app-container">
       <div className="quiz-card">
 
-        <h1 className="title"> Mechanical Review Web</h1>
+        <h1 className="title1"> بِسْمِ اللهِ الرَّحْمَٰنِ الرَّحِيمِ </h1>
+        <img src={logo} alt="Logo" className="logo" /> {/* Logo below Bismillah */}
+        <h1 className="title">Mechanical Review Web</h1>
 
         {subject && (
           <div className="score">
@@ -66,6 +69,9 @@ export default function App() {
 
             <div className="progress">
               Question {index + 1} of {cards.length}
+            </div>
+            <div className="credits">
+              AIM to TOP
             </div>
           </>
         )}
