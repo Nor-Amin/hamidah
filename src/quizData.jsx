@@ -6889,8 +6889,425 @@ export const quizData = {
     question: "Work is association with a force acting through a distance.",
     correct: "W = F s",
     options: ["W = F s", "W = F/s", "W = s/F", "none of these"]
-  }
+  },
+  {
+    subject: "PPE",
+    question: "If any of the electrically controlled devices in a Freon system malfunction, which valve will also automatically shut off?",
+    correct: "solenoid valve",
+    options: ["king valve", "expansion valve", "solenoid valve", "condenser cooling-water inlet valve"]
+  },
+  {
+    subject: "PPE",
+    question: "Many pressure gages on a Freon system have two dials. The two dials represent:",
+    correct: "pressure and temperature",
+    options: ["pressure and temperature", "liquid pressure and gas pressure", "suction and discharge pressure", "cooling-water inlet and outlet temperatures"]
+  },
+  {
+    subject: "PPE",
+    question: "A leaky discharge valve can usually be detected by:",
+    correct: "any of the above",
+    options: ["a fluctuating high-pressure gage", "a drop in icebox temperatures", "a discharge pressure lower than normal", "any of the above"]
+  },
+  {
+    subject: "PPE",
+    question: "The suction of a Freon system should be:",
+    correct: "pressure corresponding to temperature about 20°F below icebox temperature",
+    options: [
+      "pressure corresponding to temperature about 20°F below icebox temperature",
+      "pressure equal to icebox temperature",
+      "pressure about 20°F above icebox temperature",
+      "none of the above"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The disadvantage of a CO2 system over an ammonia system is:",
+    correct: "all of the above",
+    options: [
+      "requires a larger prime mover",
+      "operates at a much higher pressure",
+      "pipe and fittings must be high-pressure type",
+      "all of the above"
+    ]
+  },
 
+  {
+    subject: "PPE",
+    question: "One disadvantage of a CO2 system is:",
+    correct: "difficult to condense refrigerant if circulating water temperature is too high",
+    options: [
+      "difficult to condense refrigerant if circulating water temperature is too high",
+      "difficult to condense refrigerant if water temperature is too low",
+      "oil mixes due to high pressure",
+      "requires more refrigerant"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "The crossover connection in an ammonia system can be used to:",
+    correct: "hot-gas defrost",
+    options: ["reduce discharge pressure", "hot-gas defrost", "pump air out", "add refrigerant"]
+  },
+
+  {
+    subject: "PPE",
+    question: "Another name for discharge pressure is:",
+    correct: "head pressure",
+    options: ["suction pressure", "absolute pressure", "head pressure", "condenser pressure"]
+  },
+
+  {
+    subject: "PPE",
+    question: "Oil used in the refrigerating system is:",
+    correct: "straight mineral oil",
+    options: ["lube oil SAE 20", "straight mineral oil", "lube oil SAE 10", "vegetable oil"]
+  },
+
+  {
+    subject: "PPE",
+    question: "The discharge pressure on the compressor should be:",
+    correct: "5°F to 15°F higher than condenser discharge",
+    options: [
+      "5°F to 15°F below condenser discharge",
+      "5°F to 15°F higher than condenser discharge",
+      "equal to condenser discharge",
+      "none of the above"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "A leaky suction valve can usually be detected by:",
+    correct: "any of the above",
+    options: [
+      "fluctuating suction pressure gage",
+      "higher suction pressure",
+      "closing suction valve has no effect",
+      "any of the above"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "The purpose of relief valves on refrigerating machines is to:",
+    correct: "prevent excessive pressure",
+    options: [
+      "prevent overloading",
+      "bypass compressor",
+      "prevent excessive pressure",
+      "A and B"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "The relief valve on an ammonia machine is located:",
+    correct: "in the compressor head",
+    options: [
+      "discharge pipe from condenser",
+      "discharge pipe from compressor",
+      "in the compressor head",
+      "A or B"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "The relief valve on a CO2 machine is located:",
+    correct: "on discharge pipe between compressor and discharge valve",
+    options: [
+      "discharge pipe from condenser",
+      "next to king valve",
+      "discharge pipe between compressor and discharge valve",
+      "in compressor head"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "Excess frost on the evaporator coils:",
+    correct: "reduces the efficiency of the plant",
+    options: [
+      "keeps icebox cooler",
+      "reduces the efficiency of the plant",
+      "takes load off compressor",
+      "does not affect system"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "Air circulation in the icebox is accomplished by:",
+    correct: "diffuser fans",
+    options: ["louver doors", "hollow sidewalls", "diffuser fans", "air vents to deck"]
+  },
+
+  {
+    subject: "PPE",
+    question: "Before securing a compressor for maintenance, be sure to:",
+    correct: "A and B",
+    options: ["pump down system", "have spare parts ready", "purge system", "A and B"]
+  },
+
+  {
+    subject: "PPE",
+    question: "Some causes of a noisy compressor are:",
+    correct: "any of the above",
+    options: [
+      "worn bearings",
+      "too much oil",
+      "slugging due to flooding",
+      "any of the above"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "Slugging is usually caused by:",
+    correct: "expansion valve not operating properly",
+    options: [
+      "too much oil",
+      "too much refrigerant",
+      "expansion valve not operating properly",
+      "too much cooling water"
+    ]
+  },
+
+  {
+    subject: "PPE",
+    question: "Zinc rods are found in the:",
+    correct: "salt-water side of condenser",
+    options: [
+      "evaporator coils",
+      "salt-water side of condenser",
+      "compressor crankcase",
+      "refrigerant side of crankcase"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "A double-trunk piston is used to:",
+    correct: "all of the above",
+    options: [
+      "prevent gas from getting to crankcase",
+      "absorb some of the side thrust",
+      "prevent oil from mixing with refrigerant",
+      "all of the above"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The purpose of the receiver is to:",
+    correct: "store the refrigerant",
+    options: [
+      "cool the refrigerant gas",
+      "separate oil from refrigerant",
+      "store the refrigerant",
+      "condense the refrigerant"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "When a pressure gage reads zero, the absolute pressure is:",
+    correct: "14.7 psi",
+    options: ["30 psi", "14.7 psi", "0 psi", "17.4 psi"]
+  },
+  {
+    subject: "PPE",
+    question: "The heat used to change a solid to a liquid is called:",
+    correct: "latent heat of fusion",
+    options: [
+      "latent heat of fusion",
+      "sensible heat fusion",
+      "latent heat of liquid",
+      "specific heat of fusion"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The heat used to change a gas to a vapor is called:",
+    correct: "latent heat of vaporization",
+    options: [
+      "latent heat of fusion",
+      "latent heat of vaporization",
+      "specific heat of vaporization",
+      "latent heat of the gas"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "Sweating of the crankcase is caused by:",
+    correct: "too much oil in the system",
+    options: [
+      "too much superheat",
+      "insufficient superheat",
+      "expansion valve hang-up",
+      "too much oil in the system"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "If an automatic Freon system will not start up, check the:",
+    correct: "all of the above",
+    options: [
+      "high-pressure cutout",
+      "low-pressure cutout",
+      "reset mechanism",
+      "all of the above"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The cooling-water side of the condenser should be opened for inspection every:",
+    correct: "three months",
+    options: ["six months", "one year", "two years", "three months"]
+  },
+  {
+    subject: "PPE",
+    question: "If the thermal expansion valve becomes inoperative, control is by the:",
+    correct: "manual expansion valve",
+    options: [
+      "solenoid valve",
+      "manual expansion valve",
+      "king valve",
+      "manual solenoid valve"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The low-pressure cutout switch is operated by:",
+    correct: "a bellows",
+    options: ["a magnet", "a bellows", "spring tension", "water pressure"]
+  },
+  {
+    subject: "PPE",
+    question: "A good refrigerant should be:",
+    correct: "all of the above",
+    options: [
+      "non-poisonous",
+      "non-explosive",
+      "noninflammable",
+      "all of the above"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "If a system extracts 48,800 Btu/hr, the tonnage is:",
+    correct: "4 tons",
+    options: ["5 tons", "1/2 ton", "2 tons", "4 tons"]
+  },
+  {
+    subject: "PPE",
+    question: "The purpose of the low-pressure cutout switch is to:",
+    correct: "cut compressor in and out at a preset pressure",
+    options: [
+      "maintain liquid refrigerant at suction",
+      "maintain suction pressure",
+      "cut out compressor at set pressure",
+      "cut compressor in and out at preset pressure"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The most likely cause of high superheat is:",
+    correct: "expansion valve closed too much",
+    options: [
+      "too much refrigerant",
+      "expansion valve opened too wide",
+      "expansion valve closed too much",
+      "back-pressure valve set too high"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The purpose of the evaporator is to:",
+    correct: "absorb latent heat of vaporization",
+    options: [
+      "absorb latent heat of vaporization",
+      "absorb latent heat of fusion",
+      "transfer latent heat of vaporization",
+      "transfer latent heat of fusion"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "Air is removed from the system by:",
+    correct: "opening the purge valve",
+    options: [
+      "increasing cooling water",
+      "opening the purge valve",
+      "using aerator",
+      "using deaerator"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The suction pressure switch is operated by:",
+    correct: "pressure on bellows",
+    options: [
+      "electric current",
+      "thermocouple",
+      "pressure on bellows",
+      "relay cutout"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "A hot suction line might be caused by:",
+    correct: "insufficient refrigerant",
+    options: [
+      "insufficient refrigerant",
+      "insufficient lubrication",
+      "expansion valve closed too much",
+      "too much refrigerant"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "The device for low-pressure control and high-pressure cutout is called:",
+    correct: "pressure controller",
+    options: [
+      "cutout",
+      "pressure controller",
+      "controller switch",
+      "cutout switch"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "Thermal expansion valves are usually of the:",
+    correct: "A or C",
+    options: [
+      "bellows type",
+      "magnetic type",
+      "diaphragm type",
+      "A or C"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "Liquid reaching the compressor through the suction line is called:",
+    correct: "flooding back",
+    options: [
+      "flooding back",
+      "superheating",
+      "overflowing",
+      "recycling"
+    ]
+  },
+  {
+    subject: "PPE",
+    question: "Pressure controllers are usually of the:",
+    correct: "bellows-type construction",
+    options: [
+      "diaphragm-type",
+      "bellows-type",
+      "magnetic-type",
+      "pilot-valve type"
+    ]
+  },
+  //41-300 in PPE5
     
   ],
 
