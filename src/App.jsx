@@ -34,7 +34,7 @@ export default function App() {
 
         <h1 className="title1"> بِسْمِ اللهِ الرَّحْمَٰنِ الرَّحِيمِ </h1>
         <img src={logo} alt="Logo" className="logo" /> {/* Logo below Bismillah */}
-        <h1 className="title">Mechanical Review Web</h1>
+        <h1 className="title">Mechanical Eng. Review Web</h1>
 
         {subject && (
           <div className="score">
