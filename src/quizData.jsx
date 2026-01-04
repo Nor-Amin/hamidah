@@ -7311,19 +7311,1095 @@ export const quizData = {
     
   ],
 
+  
+  Math: [
+    {
+    question: "Low-carbon steel are generally used in the “as rolled” or “as fabricated” state. What is the reason for this?",
+    correct: "Their strength generally cannot be increased by heat treatment",
+    options: [
+      "Their strength generally cannot be increased by heat treatment",
+      "Their chromium content is so low",
+      "Their density is so high",
+      "They come in many different shapes and thickness"
+    ]
+  },
+  {
+    question: "Which of the following rules does not apply to a parallel circuit?",
+    correct: "The total resistance is the sum of the individual resistors",
+    options: [
+      "Total current flow is the sum of the current to a parallel circuit",
+      "The applied voltage is the same across each path",
+      "There is more than one path for circuit flow",
+      "The total resistance is the sum of the individual resistors"
+    ]
+  },
+  {
+    question: "The number of board feet in a plank 3 inches thick, 1 foot wide and 20 feet length is:",
+    correct: "60",
+    options: ["60", "360", "120", "720"]
+  },
+  {
+    question: "In general the design stress and factor of safety are related as follows:",
+    correct: "Design stress = ultimate stress / factor of safety",
+    options: [
+      "Design stress = ultimate stress × factor of safety",
+      "Factor of safety = design stress / ultimate stress",
+      "Design stress = ultimate stress / factor of safety",
+      "Ultimate stress = factor of safety / design stress"
+    ]
+  },
+  {
+    question: "The dimension of “Acceleration × Mass” is the same as that of",
+    correct: "Weight",
+    options: ["Power", "Length", "Work", "Weight"]
+  },
+  {
+    question: "Which of the following contains only items which are considered fixed charges?",
+    correct: "Interest, taxes, amortization, insurance, rent",
+    options: [
+      "Interest, taxes, amortization, insurance, rent",
+      "Amortization, insurance, steam cost, painting, cleaning",
+      "Interest, taxes, replacement parts, labor for repairs",
+      "Interest, taxes, rent, power cost, oil cost"
+    ]
+  },
+  {
+    question: "An economic study is made of the total annual cost (C) for a series of alternative investments (P). The most desirable investment occurs when",
+    correct: "dC/dP = 0",
+    options: ["dC/dP = 1", "dC/dP = 0", "dC/dP = C₀", "dC/dP = +1"]
+  },
+  {
+    question: "Galvanized iron is a term referring to iron coated with",
+    correct: "Zinc",
+    options: ["Aluminum", "Magnesium", "Tin", "Zinc"]
+  },
+  {
+    question: "In a cantilever beam with a concentrated load at the free end, the moment is",
+    correct: "Maximum at the wall",
+    options: [
+      "Maximum at the wall",
+      "Constant along the beam",
+      "1/4 maximum halfway out on the beam",
+      "Maximum at the free end"
+    ]
+  },
+  {
+    question: "The coefficient of friction for dry surfaces",
+    correct: "Depends on the materials and the finish condition of the surfaces",
+    options: [
+      "Depends on the composition of the materials only",
+      "Depends on the materials and the finish condition of the surfaces",
+      "Depends on the finish condition of the surfaces",
+      "Does not depend on the materials"
+    ]
+  },
+  {
+  question: "The following cost item which is common to both fixed and operating cost of an enterprise, is",
+  correct: "Interest",
+  options: ["Interest", "Depreciation", "Taxes", "Supplies"]
+},
+{
+  question: "The center of gravity of an isosceles triangle whose height h is on the median line",
+  correct: "2/3 h from the vertex",
+  options: [
+    "2/3 h from the vertex",
+    "2/3 h from the base",
+    "1/3 h from the vertex",
+    "3/4 h from the vertex"
+  ]
+},
+{
+  question: "The equation PV¹·⁸ = constant is:",
+  correct: "a straight line on log log paper",
+  options: [
+    "a straight line on log log paper",
+    "a curve line on log log paper",
+    "a straight line on rectangular coordinate paper",
+    "a straight line on semi-log paper"
+  ]
+},
+{
+  question: "What ascertains the effectiveness and size of a condenser?",
+  correct: "Heat transfer",
+  options: [
+    "Heat transfer",
+    "Size of tubes",
+    "Thickness of shell",
+    "Number of pass"
+  ]
+},
+{
+  question: "Ninety degrees is equal to:",
+  correct: "1.57 radians",
+  options: [
+    "1,500 radians",
+    "3.142 radians",
+    "1.57 radians",
+    "1,000 radians"
+  ]
+},
+{
+  question: "The standard acceleration due to gravity, g is equal to:",
+  correct: "35.30 km/hr/sec",
+  options: [
+    "64.34 ft/sec²",
+    "32.2 ft²/sec",
+    "980 ft/sec²",
+    "35.30 km/hr/sec"
+  ]
+},
+{
+  question: "It is required to speed up sedimentation of sewage. What chemical is most commonly used?",
+  correct: "Lime",
+  options: [
+    "Sulfuric acid",
+    "Lime",
+    "Sodium permanganate",
+    "Copper sulfate"
+  ]
+},
+{
+  question: "In a steady flow system, the mass of the working substance is",
+  correct: "Always conserved",
+  options: [
+    "Always conserved",
+    "Always greater",
+    "Always ceased",
+    "None of these"
+  ]
+},
+{
+  question: "A general principle in the motion of a body can be stated as follows:",
+  correct: "FT = MΔv",
+  options: [
+    "FT = Mv",
+    "FΔT = Mv²",
+    "FT = MΔv",
+    "FΔv = MΔT"
+  ]
+},
+{
+  question: "In mechanics, if mass M, length L, and time T are selected as primary units, force F will have the equation",
+  correct: "F = MLT⁻²",
+  options: [
+    "F = MLT",
+    "F = MT²L⁻¹",
+    "F = MLT⁻²",
+    "F = ML⁻¹T⁻²"
+  ]
+},
+{
+  question: "For a simple beam supported at each end and uniformly loaded",
+  correct: "The shear at the center of the beam is zero",
+  options: [
+    "The shear at the center of the beam is zero",
+    "The moment diagram is a straight line",
+    "The shear at the reaction is minimum",
+    "The maximum moment occurs at the reaction"
+  ]
+},
+{
+  question: "The phenomenon by which air enters a submerged suction pipe from the water surface is called",
+  correct: "Vortex",
+  options: ["Thixotropic", "Dilatant", "Vortex", "Vacuum"]
+},
+{
+  question: "The chemicals added to oil to increase the resistance to oxidation are called",
+  correct: "Additive",
+  options: ["Viscous", "Special oil", "Additive", "None of these"]
+},
+{
+  question: "Compression ratio of an engine is",
+  correct: "(Displacement volume + clearance volume) / clearance volume",
+  options: [
+    "Stroke + clearance",
+    "(Displacement volume + clearance volume) / clearance volume",
+    "Displacement volume / clearance volume",
+    "0.7854D²L + 0.7854D²L"
+  ]
+},
+{
+  question: "An internal fired boiler which is self-contained and intended for temporary location is called",
+  correct: "Portable boiler",
+  options: [
+    "Low pressure heating boiler",
+    "Hot water supply boiler",
+    "Portable boiler",
+    "Miniature boiler"
+  ]
+},
+{
+  question: "Spherical degree is 1/720 of the surface of the sphere. How many spherical degrees does a hemisphere have?",
+  correct: "360°",
+  options: ["360°", "720°", "180°", "270°"]
+},
+{
+  question: "Which statement is false about spherical trigonometry?",
+  correct: "The sum of all interior angles of a spherical triangle is 360°",
+  options: [
+    "If two angles are equal, opposite sides are equal",
+    "Greater side lies opposite greater angle",
+    "Sum of two sides is greater than the third",
+    "The sum of all interior angles is 360°"
+  ]
+},
+{
+  question: "The sum of the sides of a spherical triangle is always less than",
+  correct: "360°",
+  options: ["270°", "360°", "540°", "160°"]
+},
+{
+  question: "The sum of any two angles of a spherical triangle is",
+  correct: "Less than 180° plus the third angle",
+  options: [
+    "Greater than 180°",
+    "Less than 180°",
+    "Less than 180° plus the third angle",
+    "Greater than 180° plus the third angle"
+  ]
+},
+{
+  question: "Refers to the angular distance from the equator measured along a meridian",
+  correct: "Latitude",
+  options: ["Longitude", "Latitude", "Meridian", "Declination"]
+},
+{
+  question: "Refers to the angle at either pole between the meridian passing through a point and the prime meridian",
+  correct: "Longitude",
+  options: ["Longitude", "Latitude", "Declination", "Equinox"]
+},
+{
+  question: "Is half of a great circle terminated by the north and south poles",
+  correct: "Meridian",
+  options: ["Longitude", "Latitude", "Declination", "Meridian"]
+},
+{
+  question: "When the hypotenuse of a right spherical triangle is less than 90°",
+  correct: "The two legs are on the same quadrant",
+  options: [
+    "The two legs are on the same quadrant",
+    "The two legs are on different quadrants",
+    "One leg in first and other in second quadrant",
+    "None of the above"
+  ]
+},
+{
+  question: "When the hypotenuse of a right spherical triangle is greater than 90°",
+  correct: "One leg is in the first quadrant and the other in the second quadrant",
+  options: [
+    "The two legs are on the same quadrant",
+    "The two legs are on different quadrants",
+    "One leg is in the first quadrant and the other in the second quadrant",
+    "None of the above"
+  ]
+},
+{
+  question: "The point where a ray from the center of the earth through an observer intersects the celestial sphere is called",
+  correct: "Zenith",
+  options: ["Zenith", "Nadir", "Pole", "Equinox"]
+},
+{
+  question: "The point that is diametrically opposite the zenith is called",
+  correct: "Nadir",
+  options: ["Pole", "Equinox", "Nadir", "Celestial meridian"]
+},
+{
+  question: "The use of carbon in steel is",
+  correct: "Increase the hardness",
+  options: [
+    "Increase the hardness",
+    "Increase the ductility",
+    "Increase the resistance to shock",
+    "Decrease the resistance to fatigue"
+  ]
+},
+{
+  question: "The loss of weight of a body submerged in a fluid is",
+  correct: "Equal to the weight of fluid displaced",
+  options: [
+    "Proportional to the depth submerged",
+    "Equal to the weight of fluid displaced",
+    "Proportional to the weight of the body",
+    "Independent of the volume of the body"
+  ]
+},
+{
+  question: "To comply with the Mechanical Engineering Law, a mechanical plant with a combined prime mover rating of 373 kW must have",
+  correct: "1 RME and 2 CPM",
+  options: [
+    "1 PME, 1 RME and 1 CPM",
+    "1 PME and 2 RME",
+    "1 RME and 2 CPM",
+    "1 RME in-charge every shift"
+  ]
+},
+{
+  question: "Before an RME may be allowed to take the licensure examinations for PME, he must have an active practice of",
+  correct: "4 years",
+  options: ["5 years", "4 years", "3 years", "6 years"]
+},
+{
+  question: "Mechanical Plant Engineer (MPE) may be allowed to take the licensure examinations for PME if",
+  correct: "He has 4 years of active practice as an MPE",
+  options: [
+    "He has 4 years of active practice as an MPE",
+    "He graduated with BSME and 4 years as RME",
+    "He passed RME exam and practiced 4 years",
+    "None of these"
+  ]
+},
+{
+  question: "The only country that recognizes the Philippine mechanical engineering license is",
+  correct: "None of these",
+  options: ["America", "England", "Japan", "None of these"]
+},
+{
+  question: "A statement of equality between two ratios is called",
+  correct: "Proportion",
+  options: ["Valuation", "Theorem", "Power factor", "Proportion"]
+},
+{
+  question: "The side opposite the right angle of a right triangle is called",
+  correct: "Hypotenuse",
+  options: ["Quadrilateral", "Apothem", "Hypotenuse", "Median"]
+},
+{
+  question: "A plane closed curve, all points of which are the same distance from a point within, called the center, is a",
+  correct: "Circle",
+  options: ["Chord", "Circle", "Arc", "Radius"]
+},
+{
+  question: "Two triangles are congruent if two angles and the included side of one are equal respectively to two angles and the included side of the other",
+  correct: "Theorem",
+  options: ["Axiom", "Postulate", "Corollary", "Theorem"]
+},
+{
+  question: "The volume of a circular cylinder is equal to the product of its base and altitude",
+  correct: "Theorem",
+  options: ["Postulate", "Corollary", "Theorem", "Axiom"]
+},
+{
+  question: "Output over input is called",
+  correct: "Efficiency",
+  options: ["Efficiency", "Rate of return", "Bond", "Annuity"]
+},
+{
+  question: "An instrument for measuring specific gravity of fluids is a",
+  correct: "Hydrometer",
+  options: ["Flowmeter", "Hygrometer", "Clinometer", "Hydrometer"]
+},
+{
+  question: "The ratio between the average load and total available capacity is called",
+  correct: "Capacity factor",
+  options: ["Demand factor", "Capacity factor", "Power factor", "Load factor"]
+},
+{
+  question: "The National Association for Mechanical Engineers accredited by the PRC is",
+  correct: "PSME",
+  options: ["PAMEE", "AGMEEP", "PSME", "IIEE"]
+},
+{
+  question: "Minimum grade of Mechanical Engineer required in the design of a 280 kW diesel power plant is",
+  correct: "PME",
+  options: ["RME", "CPM", "PME", "MPE"]
+},
+{
+  question: "The decrease in value of property due to passage of time is called",
+  correct: "Depreciation",
+  options: ["Devaluation", "Depletion", "Salvage value", "Depreciation"]
+},
+{
+  question: "The difference between the book value and the actual lower resale value is called",
+  correct: "Sunk cost",
+  options: ["Salvage value", "Resale value", "Fixed cost", "Sunk cost"]
+},
+{
+  question: "A situation where a unique product is available only from a single supplier is called",
+  correct: "Monopoly",
+  options: ["Monopoly", "Competition", "Profitability", "Inventory"]
+},
+{
+  question: "The pressure reading of 35 psi in kPa is",
+  correct: "342.72",
+  options: ["427.3", "724", "273.4", "342.72"]
+},
+{
+  question: "The radius of a circle inscribed in a triangle with sides 5, 7, and 10 is",
+  correct: "1.477",
+  options: ["1.774", "1.477", "1.744", "1.747"]
+},
+{
+  question: "The moment of inertia of a 2\" wide × 2' high section about an axis 1' above the bottom edge is",
+  correct: "2304 in⁴",
+  options: ["1834 in⁴", "384 in⁴", "9214 in⁴", "2304 in⁴"]
+},
+{
+  question: "A cantilever beam having increasing load toward the fixed end",
+  correct: "Has a reaction equal to the load",
+  options: [
+    "Has uniform shear",
+    "Has a reaction equal to the load",
+    "Maximum bending moment at midspan",
+    "Reaction equals half the load"
+  ]
+},
+{
+  question: "The ratio of the annual revenues to the annual expenses is called",
+  correct: "Benefit-to-cost ratio",
+  options: [
+    "Benefit-to-cost ratio",
+    "Income ratio",
+    "Rate of return",
+    "Cost-to-benefit ratio"
+  ]
+},
+{
+  question: "The reciprocal of 20 is",
+  correct: "0.05",
+  options: ["0.50", "20", "0.20", "0.05"]
+},
+{
+  question: "Prisms are named according to their",
+  correct: "Bases",
+  options: ["Diagonals", "Sides", "Vertices", "Bases"]
+},
+{
+  question: "Two circular arcs that together make up a full circle are called",
+  correct: "Conjugate arcs",
+  options: ["Coterminal arcs", "Conjugate arcs", "Congruent arcs", "Half arcs"]
+},
+{
+  question: "Polygons are classified according to the number of",
+  correct: "Sides",
+  options: ["Vertices", "Sides", "Diagonals", "Angles"]
+},
+{
+  question: "When two planes intersect, the divergence between them is measured by the",
+  correct: "Dihedral angle",
+  options: ["Dihedral angle", "Plane angle", "Polyhedral angle", "Reflex angle"]
+},
+{
+  question: "An angular unit equal to 1/400 of the circumference of a circle is called",
+  correct: "Grad",
+  options: ["Mill", "Degree", "Radian", "Grad"]
+},
+{
+  question: "Express 45° in mils",
+  correct: "800",
+  options: ["80", "800", "1600", "2700"]
+},
+{
+  question: "The arc length equal to the radius of the circle is called",
+  correct: "Radian",
+  options: ["Radian", "Quarter circle", "Sector", "Semicircle"]
+},
+{
+  question: "A five-pointed star is also known as a",
+  correct: "Pentagram",
+  options: ["Pentagon", "Pentatron", "Pentagram", "Quintagram"]
+},
+{
+  question: "If two or more lines have a single point which lies on all of them, they are",
+  correct: "Concurrent",
+  options: ["Collinear", "Coplanar", "Concurrent", "Conjugate"]
+},
+{
+  question: "The action of bringing one geometric figure into coincidence with another is called",
+  correct: "Superposition",
+  options: ["Transposition", "Translation", "Superposition", "Projection"]
+},
+{
+  question: "A line that intersects two or more distinct points is called a",
+  correct: "Transversal",
+  options: ["Tangent line", "Transversal", "Bisector", "Median"]
+},
+{
+  question: "An arclength equal to the radius of a circle is called a",
+  correct: "Radian",
+  options: ["Grad", "Radian", "Degree", "Mil"]
+},
+{
+  question: "An angle which is 1/400th of a full revolution is called",
+  correct: "Gon",
+  options: ["Gon", "Mil", "Degree", "Radian"]
+},
+{
+  question: "Another term for gon is",
+  correct: "Grad and centesimal degree",
+  options: ["Grad", "Mil", "Centesimal degree", "Grad and centesimal degree"]
+},
+{
+  question: "An angle whose vertex is on the circle and whose sides are chords is called",
+  correct: "Inscribed angle",
+  options: ["Interior angle", "Vertical angle", "Acute angle", "Inscribed angle"]
+},
+{
+  question: "An angle greater than a right angle but less than a straight angle is called",
+  correct: "Obtuse angle",
+  options: ["Acute angle", "Obtuse angle", "Reflex angle", "Oblique angle"]
+},
+{
+  question: "Any angle greater than a straight angle but less than two straight angles is a",
+  correct: "Reflex angle",
+  options: ["Complement", "Supplement", "Complex", "Reflex"]
+},
+{
+  question: "The angle formed by the prolongation of one side and the adjacent side of a polygon is called",
+  correct: "Exterior angle",
+  options: ["Interior angle", "Acute angle", "Exterior angle", "Explimentary angle"]
+},
+{
+  question: "Two angles which have the same vertex and whose sides are formed by extending the sides of the other are",
+  correct: "Vertical angles",
+  options: ["Adjacent angles", "Interior angles", "Vertical angles", "Deflection angles"]
+},
+{
+  question: "Another term for exterior angle is",
+  correct: "Deflection angle",
+  options: ["Vertical angle", "Inscribed angle", "Reflex angle", "Deflection angle"]
+},
+{
+  question: "The sum of all deflection angles in a given polygon is",
+  correct: "Always equal to 360°",
+  options: [
+    "Always less than 360°",
+    "Always equal to 360°",
+    "Always greater than 360°",
+    "Always equal to 180°"
+  ]
+},
+{
+  question: "An instrument for measuring high temperature gases:",
+  correct: "Pyrometer",
+  options: ["Atmometer", "Altimeter", "Odometer", "Pyrometer"]
+},
+{
+  question: "A rectangle with equal sides:",
+  correct: "Square",
+  options: ["Rhombus", "Trapezoid", "Rectangle", "Square"]
+},
+{
+  question: "If equals are added to equals, their sum are equal:",
+  correct: "Theorem",
+  options: ["Theorem", "Axiom", "Corollary", "Postulate"]
+},
+{
+  question: "A straight line perpendicular to one of two parallel planes is perpendicular to the other also.",
+  correct: "Theorem",
+  options: ["Postulate", "Theorem", "Axiom", "Corollary"]
+},
+{
+  question: "The digits of a measurement which a scientist reads and estimates on a scale are called:",
+  correct: "Significant figures",
+  options: ["Accuracy", "Significant figures", "Precision", "Experimentation"]
+},
+{
+  question: "Galvanized iron is a term referring to iron coated with:",
+  correct: "Zinc",
+  options: ["Aluminum", "Tin", "Magnesium", "Zinc"]
+},
+{
+  question: "The sum of the sides of a polygon:",
+  correct: "Perimeter",
+  options: ["Circumference", "Perimeter", "Square", "Hexagon"]
+},
+{
+  question: "A tax on imports:",
+  correct: "Import tariffs",
+  options: ["Import tariffs", "Import quota", "Value added tax", "Capital account"]
+},
+{
+  question: "A line that meets a plane but is not perpendicular to it, in relation to the plane:",
+  correct: "Oblique",
+  options: ["Parallel", "Collinear", "Coplanar", "Oblique"]
+},
+{
+  question: "A quadrilateral whose opposite sides are parallel:",
+  correct: "Parallelogram",
+  options: ["Triangle", "Parallelogram", "Trapezoid", "Median"]
+},
+{
+  question: "In the SI system of measurement, the base unit for mass is:",
+  correct: "Kilogram",
+  options: ["Kilogram", "Kilogram/m³", "Joule", "Newton"]
+},
+{
+  question: "The maximum horsepower rating of a mechanical works or plant that can be tended or operated by a Certified Plant Mechanic:",
+  correct: "300 hp",
+  options: ["50 hp", "400 hp", "300 hp", "150 hp"]
+},
+{
+  question: "Which is not a qualification of an applicant for ME board examination?",
+  correct: "He must be a Certified Plant Mechanic",
+  options: [
+    "He must be a holder of BSME degree",
+    "He must be a citizen of the Philippines",
+    "He must be at least 18 years old",
+    "He must be a Certified Plant Mechanic"
+  ]
+},
+{
+  question: "The standard acceleration due to gravity (English unit):",
+  correct: "32.2 ft/s²",
+  options: ["32.2 ft/s²", "980 ft/s²", "58.33 ft/s²", "35.3 m/s²"]
+},
+{
+  question: "Those funds that are required to make the enterprise or project a going concern:",
+  correct: "Working capital",
+  options: ["Banking", "Accumulated amount", "Working capital", "Principal or present worth"]
+},
+{
+  question: "The length of time during which the property may be operated at a profit:",
+  correct: "Economic life",
+  options: ["Length of time", "Economic life", "Physical life", "Life"]
+},
+{
+  question: "Worth of the property as shown in the accounting records of an enterprise:",
+  correct: "Book value",
+  options: ["Fair value", "Market value", "Use value", "Book value"]
+},
+{
+  question: "Cost of things that are neither labor nor materials:",
+  correct: "Expenses",
+  options: ["Construction cost", "Expenses", "Labor cost", "Investment"]
+},
+{
+  question: "Kind of obligation which has no condition attached:",
+  correct: "Gratuitous",
+  options: ["Analytic", "Gratuitous", "Private", "Pure"]
+},
+{
+  question: "Gross profit, sales less cost of goods sold, as a percentage sale is called:",
+  correct: "Gross margin",
+  options: ["Profit margin", "Gross margin", "ROI", "Price earnings"]
+},
+{
+  question: "Profit margin ratio is the percentage of each peso of sales that is net income:",
+  correct: "Net Income Before Taxes / Net Sales",
+  options: [
+    "ROR",
+    "Net Income / Owner’s Equity",
+    "Net Income Before Taxes / Net Sales",
+    "Price earnings"
+  ]
+},
+{
+  question: "The series of equal payments at equal intervals of time:",
+  correct: "Annuity",
+  options: ["Depreciation", "Annuity", "Interest", "Amortization"]
+},
+{
+  question: "The present worth of all depreciation over the economic life of the item is called:",
+  correct: "Depreciation recovery",
+  options: ["Maintenance", "Capital recovery", "Depreciation recovery", "Annuity"]
+},
+{
+  question: "What is the curve generated by a point rotating about its axis while traveling at constant speed parallel to its axis?",
+  correct: "Helix",
+  options: ["Helix", "Cycloid", "Spiral of Archimedes", "Hypocycloid"]
+},
+{
+  question: "The two classification of pumps:",
+  correct: "Reciprocating & rotary",
+  options: [
+    "Centrifugal & water turbine",
+    "Propeller & impulse",
+    "Gear & oil pump",
+    "Reciprocating & rotary"
+  ]
+},
+{
+  question: "The measure of 2.25 revolutions counterclockwise is:",
+  correct: "815°",
+  options: ["835°", "805°", "810°", "815°"]
+},
+{
+  question: "Solid angles are measured in:",
+  correct: "Steradians",
+  options: ["Mils", "Radians", "Steradians", "Circular mils"]
+},
+{
+  question: "What is the largest measure (in steradians) of a solid angle?",
+  correct: "4π",
+  options: ["2π", "4π", "8π", "π"]
+},
+{
+  question: "Steradians measure in space in analog of _____ measured in the plane.",
+  correct: "Radians",
+  options: ["Radians", "Degrees", "Mils", "Grads"]
+},
+{
+  question: "A part of a circle is called:",
+  correct: "Arc",
+  options: ["Sector", "Segment", "Chord", "Arc"]
+},
+{
+  question: "It is a union of the chord of a circle and the intercepted arc:",
+  correct: "Segment",
+  options: ["Sector", "Segment", "Lune", "Zone"]
+},
+{
+  question: "A _______ of a circle is the figure bounded by two radii and the intercepted arc.",
+  correct: "Sector",
+  options: ["Major arc", "Minor arc", "Segment", "Sector"]
+},
+{
+  question: "The apothem of a polygon is the ______ of its inscribed circle.",
+  correct: "Radius",
+  options: ["Radius", "Circumference", "Diameter", "Length"]
+},
+{
+  question: "As the area of the circle increases, the ratio of its circumference to its diameter:",
+  correct: "Remains constant",
+  options: ["Increases", "Remains constant", "Decreases", "Will be equal to 1"]
+},
+{
+  question: "A circle is said to be ______ to a polygon having the same perimeter with that of the circle.",
+  correct: "Isoperimetric",
+  options: ["Congruent", "Isoperimetric", "Proportional", "Convex"]
+},
+{
+  question: "Which of the following is NOT a property of a circle?",
+  correct: "The arc of two circles subtended by equal central angles are always equal",
+  options: [
+    "Through 3 points not in a straight line, only one circle can be drawn",
+    "A tangent to a circle is perpendicular to the radius at the point of tangency and conversely",
+    "An inscribed angle is measured by one half of the intercepted arc",
+    "The arc of two circles subtended by equal central angles are always equal"
+  ]
+},
+{
+  question: "All circles having the same center but of unequal radii are called:",
+  correct: "Concentric circles",
+  options: ["Concentric circles", "Eccentric circles", "Inner circle", "Pythagorean circles"]
+},
+{
+  question: "The center of the escribed circle of a triangle is known as ______ of the triangle.",
+  correct: "Excenter",
+  options: ["Circumcenter", "Incenter", "Excenter", "Orthocenter"]
+},
+{
+  question: "A polygon is ______ when no side, when extended, will pass through the interior of the polygon.",
+  correct: "Convex",
+  options: ["Convex", "Equilateral", "Isoperimetric", "Similar"]
+},
+{
+  question: "A polygon is said to be a regular polygon if it is:",
+  correct: "All of the above",
+  options: [
+    "Convex",
+    "All sides are congruent",
+    "All angles are congruent",
+    "All of the above"
+  ]
+},
+{
+  question: "Polygons inscribed in the same circle are called:",
+  correct: "Concyclic polygons",
+  options: [
+    "Concentric polygons",
+    "Eccentric polygons",
+    "Concyclic polygons",
+    "Orthocentric polygons"
+  ]
+},
+{
+  question: "If n is the number of sides of a polygon, the sum of all interior angles is:",
+  correct: "(n − 2) × 180°",
+  options: [
+    "(n + 2) × 180°",
+    "(n / 2) × 180°",
+    "(n − 2) × 180°",
+    "(n / 2)(n − 3)"
+  ]
+},
+{
+  question: "If n is the number of sides of a polygon, the number of diagonals is:",
+  correct: "(n / 2)(n − 3)",
+  options: ["n!", "(n − 1)!", "(n / 2)(n − 3)", "(n / 3)(n − 2)"]
+},
+{
+  question: "What do you call a polygon with 11 sides?",
+  correct: "Undecagon",
+  options: ["Unagon", "Unogon", "Undecagon", "Dodecagon"]
+},
+{
+  question: "Pentagon is to 5 sides as ______ is to 11 sides.",
+  correct: "Hendecagon",
+  options: ["Heptagon", "Septagon", "Unidecagon", "Hendecagon"]
+},
+{
+  question: "A polygon having 12 sides is called:",
+  correct: "Dodecagon",
+  options: ["Bidecagon", "Dodecagon", "Nonagon", "Pentedecagon"]
+},
+{
+  question: "A polygon of 1000 sides is called:",
+  correct: "Chiliagon",
+  options: ["Chiliagon", "Ennagon", "Perigon", "Milliagon"]
+},
+{
+  question: "A provision in the contract that indicates the possible adjustments of material cost and labor cost:",
+  correct: "Escalatory clause",
+  options: ["Secondary clause", "Specification", "Escalatory clause", "General provision"]
+},
+{
+  question: "The maximum capacity that a Certified Plant Mechanic is authorized to handle:",
+  correct: "300 hp",
+  options: ["400 hp", "150 hp", "300 hp", "500 hp"]
+},
+{
+  question: "The logarithm of 1 to any base is:",
+  correct: "Zero",
+  options: ["Indeterminate", "Infinity", "One", "Zero"]
+},
+{
+  question: "Money paid for the use of borrowed capital:",
+  correct: "Interest",
+  options: ["Depletion", "Discount", "Interest", "Overhead"]
+},
+{
+  question: "An index of short-term paying ability is called:",
+  correct: "Acid test ratio",
+  options: ["Current ratio", "Receivable turnover", "Acid test ratio", "Profit margin ratio"]
+},
+{
+  question: "Which of the following is not a basic component of motion of a fluid element?",
+  correct: "Twist",
+  options: ["Twist", "Translation", "Volume distortion", "Rotation"]
+},
+{
+  question: "A legally binding agreement or promise to exchange goods or services:",
+  correct: "Contract",
+  options: ["Contract", "Barter", "Memorandum", "Pro-forma"]
+},
+{
+  question: "The thickness of metal for an oil storage tank (1100 gallons max capacity) per PSME Code 1993 is:",
+  correct: "No. 12 gauge",
+  options: ["No. 14 gauge", "No. 16 gauge", "To be calculated by formula", "No. 12 gauge"]
+},
+{
+  question: "Fall after the increase reaches a certain variable amount is called:",
+  correct: "Law of diminishing returns",
+  options: ["Process factor", "Law of diminishing returns", "Inflation", "Law of supply and demand"]
+},
+{
+  question: "Napierian logarithms have a base closest to:",
+  correct: "2.72",
+  options: ["3.14", "2.17", "2.72", "10"]
+},
+{
+  question: "The bacteria in sewage are mostly:",
+  correct: "Saprophytic",
+  options: ["Pathogenic", "Anaerobic", "Saprophytic", "Parasitic"]
+},
+{
+  question: "The gas from sludge digestion tanks is mainly composed of:",
+  correct: "Methane",
+  options: ["Hydrogen sulphide", "Nitrogen", "Carbon dioxide", "Methane"]
+},
+{
+  question: "The equation y = a1 + a2x is an algebraic expression of:",
+  correct: "Straight line sine series",
+  options: ["Projectile motion", "Cosine expansion", "Potential energy", "Straight line sine series"]
+},
+{
+  question: "Liquid assets such as cash and accounts receivable are called:",
+  correct: "Current assets",
+  options: ["Total assets", "Fixed assets", "Current assets", "Land and buildings"]
+},
+{
+  question: "Moment of inertia in SI units is expressed as:",
+  correct: "N·m",
+  options: ["N·m", "Farad/m", "N/m", "Ampere/m"]
+},
+{
+  question: "Kinematic viscosity in SI units is:",
+  correct: "Square meters per second",
+  options: ["W/m·K", "Square meters per second", "Pascal-second", "Newton per meter"]
+},
+{
+  question: "The length of time during which a property may be operated at a profit:",
+  correct: "Physical life",
+  options: ["Life", "Length of time", "Physical life", "Economic life"]
+},
+{
+  question: "Forms of business ownership include:",
+  correct: "All of the above",
+  options: ["Partnership", "Corporation", "Single proprietorship", "All of the above"]
+},
+{
+  question: "A summary of assets, liabilities, and net worth is called:",
+  correct: "Balance sheet",
+  options: ["Balance method", "Break-even point", "Balance sheet", "Production"]
+},
+{
+  question: "In a cantilever beam with a concentrated load at the free end, the moment is:",
+  correct: "Maximum at the wall",
+  options: [
+    "Constant along the beam",
+    "Maximum at the wall",
+    "One-fourth maximum halfway",
+    "Maximum at the free end"
+  ]
+},
+{
+    question: "Which of the following BEST describes Ptolemy’s Theorem?",
+    correct: "It is used only for cyclic quadrilaterals.",
+    options: [
+      "It is use only for quadrilaterals",
+      "It is just a modification of Brahmagupta’s theorem",
+      "It is used only for cyclic quadrilaterals.",
+      "The sum of the square of the sides is equal to the square of the diagonals of a given quadrilateral."
+    ]
+  },
+  {
+    question: "The five-pointed star described by the diagonals of a regular pentagon.",
+    correct: "Pentagram or pentacle",
+    options: ["Perigon", "Pentegram", "Penacle", "Pentagram or pentacle"]
+  },
+  {
+    question: "The geometric figure remaining after a parallelogram has been removed from one corner of a larger similar polygon.",
+    correct: "Gnomon",
+    options: ["Google", "Gnomon", "Gaussian plane", "Lozenge"]
+  },
+  {
+    question: "An oblique-angled parallelogram with four sides equal is called",
+    correct: "all of the above",
+    options: ["rhombus", "diamond", "lozenge", "all of the above"]
+  },
+  {
+    question: "A non-convex quadrilateral with no pairs of adjacent equal sides is called",
+    correct: "deltroid",
+    options: ["trapezium", "kite", "deltroid", "diamond"]
+  },
+  {
+    question: "What is another term for a parallelogram?",
+    correct: "Rhomboid",
+    options: ["Rectangle", "Quadrangle", "Diamond", "Rhomboid"]
+  },
+  {
+    question: "Prisms are classified according to their",
+    correct: "bases",
+    options: ["bases", "sides", "vertices", "diagonals"]
+  },
+  {
+    question: "A solid cut of a given solid by two non-parallel planes is called",
+    correct: "truncated prism",
+    options: ["frustum", "prism", "truncated prism", "prismatoid"]
+  },
+  {
+    question: "A polyhedron having bases two polygons in parallel planes and for lateral faces triangles or trapezoids is called",
+    correct: "Prismatoid",
+    options: ["Pyramid", "Cone", "Prismatoid", "Truncated prism"]
+  },
+  {
+    question: "Portion of regular solid left after cutting off the upper part by a plane parallel to the base.",
+    correct: "Frustum",
+    options: ["Frustum", "Ungula", "Truncated solid", "Prismatoid"]
+  },
+  {
+    question: "Body or space bounded by surface every point of which is equidistant from a point within.",
+    correct: "Sphere",
+    options: ["Circle", "Sphere", "Spheroid", "Ellipsoid"]
+  },
+  {
+    question: "A solid bounded by a zone and the planes of the zone’s base.",
+    correct: "Spherical segment",
+    options: ["Spherical sector", "Spherical segment", "Lune", "Spherical excess"]
+  },
+  {
+    question: "The intersection of the sphere and the plane through the center is called",
+    correct: "great circle",
+    options: ["great circle", "small circle", "poles", "polar distance"]
+  },
+  {
+    question: "The portion of a sphere enclosed between two great semi-circles having common end points is called",
+    correct: "Lune",
+    options: ["Spherical excess", "Spherical segment", "Zone", "Lune"]
+  },
+  {
+    question: "A portion of the surface of a sphere included between two parallel planes is called",
+    correct: "Zone",
+    options: ["Spherical excess", "Spherical segment", "Zone", "Lune"]
+  },
+  {
+    question: "If R is the radius of the sphere and h is the distance between two parallel planes, the area of the zone is",
+    correct: "2πRh",
+    options: ["2πRh", "4πRh", "πh²(3R – h)/3", "4π(R – h)"]
+  },
+  {
+    question: "The solid bounded by two great circles and the surface of a sphere is known as",
+    correct: "spherical wedge",
+    options: ["spherical zone", "spherical segment", "spherical cone", "spherical wedge"]
+  },
+  {
+    question: "A cone or cylinder with its top cut off by plane oblique to the base is called",
+    correct: "Ungula",
+    options: ["Frustum", "Prismoid", "Prismatoid", "Ungula"]
+  },
+  {
+    question: "A term given to a cylinder with elliptical cross-section.",
+    correct: "Cylindroid",
+    options: ["Cylindroid", "Cylindoid", "Ovaloid", "Deltroid"]
+  },
+  {
+    question: "A doughnut-like surface generated by rotating a circle about a line in its plane is called",
+    correct: "Torus",
+    options: ["Torus", "Annulus", "Anchor", "All of the above"]
+  },
+  {
+    question: "A regular solid star radiating from a center is called",
+    correct: "Stellated solid",
+    options: ["Pentagram", "Pentagon", "Stellated solid", "Archimedean solid"]
+  },
+  {
+    question: "Locus of points on a side which rolls along a fixed line is called",
+    correct: "cycloid",
+    options: ["cardoid", "epicycloid", "cycloid", "hypocycloid"]
+  },
+  {
+    question: "The economic order quantity (EOQ) assumption that is NOT correct is",
+    correct: "There is no upper bound on the quantity ordered",
+    options: [
+      "The demand rate is uniform and constant",
+      "There is a positive cost on each unit inventoried",
+      "There is no upper bound on the quantity ordered",
+      "The entire reorder quantity is delivered instantaneously"
+    ]
+  },
+  {
+    question: "A body immersed in a fluid is subjected to a buoyant force equal to the weight of the fluid displaced. This is known as",
+    correct: "Archimedes principle",
+    options: ["Pascal’s law", "Bernoulli’s theorem", "Archimedes principle", "Venturi’s principle"]
+  },
+  {
+    question: "The efficiency of a machine is the ratio of",
+    correct: "actual to theoretical mechanical advantage",
+    options: [
+      "output to input",
+      "input to output",
+      "actual to theoretical mechanical advantage",
+      "power output to power input"
+    ]
+  },
+  {
+    question: "Sin A cos B – cos A sin B is equal to",
+    correct: "sin (A - B)",
+    options: ["cos (A - B)", "sin (A - B)", "tan (A - B)", "cos 2(A - B)"]
+  },
+  {
+    question: "The sine of 820° is",
+    correct: "0.984",
+    options: ["0.984", "0.866", "-0.866", "-0.50"]
+  }
+  ],
+
   MD: [
     {
       question: "Which vitamin deficiency causes scurvy?",
       correct: "Vitamin C",
       options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"]
-    }
-  ],
-
-  Math: [
-    {
-      question: "What is 5 × 6?",
-      correct: "30",
-      options: ["11", "30", "25", "35"]
     }
   ]
 };
